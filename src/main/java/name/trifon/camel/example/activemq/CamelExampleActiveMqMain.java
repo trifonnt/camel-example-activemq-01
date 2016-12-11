@@ -5,6 +5,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import name.trifon.camel.example.activemq.route.JmsRouteBuilder;
+import name.trifon.camel.example.activemq.route.JmsRouteBuilder2;
+
 
 /**
  * @author trifon
@@ -47,7 +49,8 @@ public class CamelExampleActiveMqMain {
 
 		// Add Camel Routes
 //		main.addRouteBuilder(new FileRouteBuilder());
-		main.addRouteBuilder(new JmsRouteBuilder());
+//		main.addRouteBuilder(new JmsRouteBuilder());
+		main.addRouteBuilder(new JmsRouteBuilder2());
 
 
 		// Add event listener

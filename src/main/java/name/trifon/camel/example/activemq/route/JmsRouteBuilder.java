@@ -3,7 +3,7 @@ package name.trifon.camel.example.activemq.route;
 import org.apache.camel.builder.RouteBuilder;
 
 /**
- * A Camel Java DSL Router
+ * @author trifon
  */
 public class JmsRouteBuilder extends RouteBuilder {
 
